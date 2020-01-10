@@ -3,7 +3,7 @@
 - insert a person 
 - insert multiple ppl at once */
 CREATE DATABASE testing_db;
-USE DATABASE testing_db;
+USE testing_db;
 CREATE TABLE people 
 (
 	first_name VARCHAR(20),
