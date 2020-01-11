@@ -3,7 +3,7 @@
 - insert a person 
 - insert multiple ppl at once */
 CREATE DATABASE testing_db;
-USE DATABASE testing_db;
+USE testing_db;
 CREATE TABLE people 
 (
 	first_name VARCHAR(20),
@@ -18,3 +18,5 @@ INSERT INTO people(first_name, last_name, age)
             ('Curious', 'George', 10);
             
 SELECT * FROM people;
+SHOW COLUMNS FROM people;
+DROP TABLE people;
